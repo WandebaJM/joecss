@@ -1,0 +1,145 @@
+
+/* .navlinks{
+
+} */
+
+    *{
+        border: 0;
+        margin: 0;
+    }
+    .browndiv{
+        display: flex;
+        justify-content: space-between;
+        background-color:#5c300f ;
+        padding: 10px 50px 10px 50px;
+        border-bottom: 20px solid orangered;
+    }
+
+    ul{
+        display: flex;
+        list-style: none;            
+    }
+
+    li{
+        padding-right: 15px;
+    }
+
+    li a{
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(219, 217, 217);
+    }
+    /* TRBL */
+
+    li button{
+        background-color: rgb(243, 106, 82);
+        padding: 10px 25px 10px 25px;
+        border-radius: 60px;
+        border: none;
+    }
+
+    .frontendmaster{
+        color: white;
+    }
+
+    .loginform{
+        text-align: justify;
+        padding: 99px 200px 99px 200px;
+        background-color: #3d3838;
+        color: white;
+        padding-top: 30px;
+    }
+
+    .box{
+        font-size: 18px;
+        padding-block: middle;
+    }
+
+    .master{
+        color: tomato;
+    }
+
+    .front{
+        color: rgb(179, 176, 176);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .login{
+        font-size: 20px;
+        color: white;
+    }
+
+    .password{
+        margin: 0 0 0 20px;
+        color: tomato;
+        text-decoration: underline;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .button{
+        background-color: red;
+        border-radius: 30px;
+        padding: 14px 24px;
+    }
+
+    input[type=box], input[type=number], input[type=password], input[type=text]{
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: inset 0 1px 3px #add;
+        color: #222;
+        display: block;
+        font-family: inherit;
+        padding: 8px 10px;
+        width: 60%;
+        font-size: 20px;
+    }
+
+    label{
+        display: inline-block;
+        margin: 0 0 5px;
+        cursor: default;
+    }
+
+    *, :after, :before {
+        box-sizing: border-box;
+    }
+
+   footer{
+       background-color: rgb(26, 18, 18);
+       display: block;
+       padding: 38px;
+   }
+
+    .footercenter{
+        padding-left: 250px;
+    }
+
+    .store{
+        padding-right: 15px;
+    }
+
+    .play{
+        display: inline-block;
+    }
+
+    .proud{
+        width: 50%;
+        float: left;
+        color:rgb(167, 164, 164) ;
+    }
+    
+    .terms{
+        width: 35%;
+        float: right;
+        color: rgb(167, 164, 164);
+    }
+
+    .support{
+        color: tomato;
+        float: right;
+    }
+
+    span{
+        color: rgb(167, 164, 164) ;
+        float: right;
+       }

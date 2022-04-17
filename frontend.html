@@ -1,88 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frontend Masters</title>
-    <style>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Frontend Masters</title>
+        
+        <link rel="shortcut icon" type="image/png" href="fem.png">
 
-    /* .navlinks{
+        <link rel="stylesheet" href="./form.css">
+    </head>
 
-    } */
-        *{
-            border: 0;
-            margin: 0;
-        }
-        .browndiv{
-            display: flex;
-            justify-content: space-between;
-            background-color:#5c300f ;
-            padding: 20px 100px 20px 100px;
-            border-bottom: 20px solid orangered;
-        }
-
-        ul{
-            display: flex;
-            list-style: none;            
-        }
-
-        li{
-            padding-right: 20px;
-        }
-
-        li a{
-            text-decoration: none;
-            font-size: 15px;
-            color: white;
-        }
-        /* TRBL */
-
-        li button{
-            background-color: rgb(243, 106, 82);
-            padding: 10px 25px 10px 25px;
-            border-radius: 15px;
-            border: none;
-        }
-
-        .frontendmaster{
-            color: white;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-    </style>
-
-
-</head>
-<body>
+    <body>
     <!-- begining of brown div -->
+            <div class="main">
+                <div class="browndiv">
+                    <div class="frontendmaster"><h1><b class="front">Frontend</b> <i class="master">Masters</i></h1></div>
 
-    <div class="main">
-        <div class="browndiv">
-            <div class="frontendmaster">
-                <h1><b>Frontend</b> <i>Master</i></h1>
+                    <div class="navlinks">
+                        <ul>
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Learn</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><button><a href="#">Join Now</a></button></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+    <!-- end of brown div -->
 
-            <div class="navlinks">
-            <ul>
-                <li><a href="#">Courses</a></li>
-                <li><a href="#">Learn</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Login</a></li>
-                <li><button><a href="#">Now</a></button></li>
-            </ul>
+
+    <!--beginning of form div-->
+        <form class="loginform">
+            <div class="box">
+                    <label for="username">Username or Email</label><br>
+                    <input type="box" placeholder="Username or Email" name="Username" required><br>
+                    <label for="Username">Password</label><br>
+                    <input type="text" placeholder="Password" name="Password" required><br>
+                    <p><input type="checkbox" name="Remember Me"> Remember me</p><br>
+                    <label><button type="submit" class="button" ><i class="login">Login</i></button><b class="password">Forgot your password</b></label>
             </div>
+        </form>
+    <!--end of form div-->
 
 
+    <!--beginning of footer div-->
+            <footer>
+                
+                    <div class="footer">
+                       <div class="footerlink"> <a href="https://frontendmasters.com/"><h1><b class="front">Frontend</b><i class="master">Masters</i></h1></a></div>
+                        <div class="footercenter">
+                            <ul>
+                                <li><a href="https://frontendmasters.com/courses/">Courses</a></li>
+                                <li><a href="https://frontendmasters.com/learn/">Learn</a></li>
+                                <li><a href="https://frontendmasters.com/teachers/">Teachers</a></li>
+                                <li><a href="https://frontendmasters.com/guides/">Guides</a></li>
+                                <li><a href="https://frontendmasters.com/join/">Pricing</a></li>
+                                <li><a href="file:///C:/Users/comp11/Desktop/joecss/frontend.html#">Login</a></li>
+                                <li><a href="https://frontendmasters.com/join/">Join Now</a></li>
+                                <li><a href="https://frontendmasters.com/faq/">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div> <br>
+                            <div class="apps">
+                                <a href="https://search.itunes.apple.com/WebObjects/MZContentLink.woa/wa/link?mt=8&path=apps%2fmjginternationalllc%2ffrontendmasters"><img class="store" src="appstore.png" width="195px" height="70px"/></a>
+                                <a href="https://play.google.com/store/apps/details?id=in.mjg.frontendmasters.store&utm_source=frontendmasters_com&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img class="play" src="googleplay.png" width="195px" height="70px"/></a> 
+                            </div> <br>
 
-        </div>
+                       
+                                <div>
+                                    <a href="https://twitter.com/"><img src="twitter.png" width="35px" height="35px"/></a>
+                                    <a href="https://www.linkedin.com/login"><img src="Linkedin.png" width="35px" height="35px"/></a>
+                                    <a href="https://www.facebook.com/"><img  src="facebook.png" width="35px" height="35px"/></a>
+                                    <a href="https://www.instagram.com/"><img src="instagram.jpg" width="35px" height="35px"/></a>                         
+                                </div>
+                            
+                                <span>Email:<a class="support" href="mailto:support@frontmasters.com">support@frontmasters.com</a></span><br>
 
-    </div>
+                        <div>
+                            <p class="proud">Frontend Masters is proudly made in Minneapolis, MN</p>
+                            <p class="terms">© 2022 Frontend Masters ·Terms of Service · Privacy Policy</p>
+                        </div>
 
- <!-- end of brown div -->
+            </footer>
 
+    <!--End of footer div-->
 
+    </body>
 
-
- 
-</body>
 </html>
