@@ -52,7 +52,10 @@
 
     .box{
         font-size: 18px;
-        padding-block: middle;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: 250px;
+        margin-right: 3px;
     }
 
     .master{

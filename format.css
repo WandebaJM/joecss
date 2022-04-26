@@ -1,24 +1,60 @@
 h1{
     color: red;
     text-decoration: #14d644 underline;
-    
     }
 
     #logo{
         border-radius: 50%;
     }
-
-    body {
-        background-color: rgb(160, 253, 147);
-      }
       
-      h1 {
+    h1 {
         color: rgb(17, 38, 224);
-        text-align: center;
-      }
+    }
       
-      p {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 22px;
-      }
+    p {
+        font-family: Tahoma;
+        font-size: 18px;
+    }
 
+    .maindiv{
+      border: red solid 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .firstdiv{
+      border: green solid 10px;
+      flex-basis: 20%;
+      box-shadow: 5px 5px rgb(87, 85, 85);
+    }
+
+    .seconddiv{
+      border: blue solid 10px;
+      flex-basis: 50%;
+    }
+
+    .thirddiv{
+      border: purple solid 10px;
+      flex-basis: 20%;
+    }
+
+    .links{
+     /* margin: auto;*/
+      display: flex;
+      list-style-type: none;
+     /* justify-content: space-around;*/
+      background-color: red;
+      color: white;
+      padding: 10px;
+    }
+
+    .links li{
+      padding-right: 25px;
+    }
+
+    .links a{
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      padding: 8px;
+    }
